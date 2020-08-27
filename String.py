@@ -1,8 +1,4 @@
-# Sequence Order = String, List, Tuple
-# Non Sequence = Set, Dictionary
-# Integers, floats, strings and tuples are objects that cannot be changed i.e. these are immutable,
-# which means you cannot change an existing.
-# We cannot delete or remove characters from a string. But deleting the string entirely is possible using the keyword del.
+
 
 str1 = "Computer, Domain"
 print("computer" in str1.lower())
