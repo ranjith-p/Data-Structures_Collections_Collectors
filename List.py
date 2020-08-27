@@ -1,10 +1,3 @@
-# Below are important LIST Functions =>
-# Len, Count, Index, Append, Extend, Pop, Remove, Insert, Sort, Sort(Revers=True), Delete, Clear, Reverse, Max, Min.
-# List is Ordered Type Data Structure
-# Sequence Order Data Structures = String, List, Tuple
-# Non Sequence Data Structures = Set, Dictionary
-# list for homogeneous (similar) datatypes.
-#---------------------------------------------------------------------------------------
 list1 = [(1,2,4,6),[2,5,9,3],{8:5,2:7}] # List can have Dict and List and Tuple
 list2 = [2,1,2,4,6,2,5,9,3,2,8,7,2,0]
 list3 = ["a","b","c"]
@@ -13,7 +6,7 @@ print( list2[-1:-5:-1]) # Will get some output
 print( list2[-1:-5:1]) # Will get Empty output
 
 print("Remove Duplicate elements from List : ",set(list2))
-
+print("ok")
 # unpacking list
 a,b,c=list1
 print("Unpacked List 1 : ",a)
